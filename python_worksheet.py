@@ -150,4 +150,23 @@ print(format(0.5, '.0%'))
 print('integer formatting - use d')
 print(format(123456, '10,d'))
 
+print('****************************************************')
+print('**Decision Structures and Boolean Logic**')
 
+#     >         greater than
+#     <         less than
+#     >=        greater than or equal to
+#     <=        less than or equal to
+#     ==        equal to
+#     !=        not equal to
+
+# if statement
+# if condition:
+#      statement for true
+print('use the if statement for conditions true')
+
+print('use the if-else statement, if for true, else for false - dual decision')
+
+print('use nested if-elif-else statement for more that one condition')
+
+print('\nlogic operators ~ and(&&) or(||) not(!=)')
