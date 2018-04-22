@@ -192,5 +192,45 @@ print('x = x % num \t\t x %= num')
 
 print('\nSentinel is a special value that marks the end of a sequence of values')
 
+print('****************************************************')
+print('**FUNCTIONS**')
+# a function is a group of statements that exist within a program for the purpose of performing a specific task
+# void functions - executes the statements it contains and then terminates
+# value-returning function - executes the statements that it contains and then returns a value back
+#                   to the statement that called it
 
+# function naming conventions
+# first character must be a-z, A-Z or underscore _
+# after the first character may use a-z, A-Z, 0-9, or underscore _
+# UPPERCASE and lowercase characters are distinct, width and Width are different
+
+# passing arguments to functions
+print('an argument is any piece of data that is passed into a function when the function is called')
+print('a parameter is a variable that receives an argument that is passed into a function')
+
+print('global variables and global constants are accessible to all functions in a program file')
+
+print('****************************************************')
+print('**IPO charts**')
+
+print('IPO charts used to determine input, processing, output')
+
+print('\n****************************************************')
+print('** math Module**')
+
+# acos(x)       returns the arc cosine of x in radians
+# asin(x)       returns the arc sine of x in radians
+# atan(x)       returns the arc tangent of x in radians
+# ceil(x)       returns the smallest integer that is greater than or equal to x
+# cos(x)        returns the cosine of x in radians
+# degrees(x)    assuming x is an angle in radians, returns converted to degrees
+# exp(x)        returns e**x
+# floor(x)      returns the largest integer that is less than or equal to x
+# hypot(x, y)   returns the length of the hypotenuse that extends from (0, 0) to (x, y)
+# log(x)        returns the natural logarithm of x
+# log10(x)      returns the base-10 logarithm of x
+# radians(x)    assuming that x is an angle in degrees. returns converted to radians
+# sin(x)        returns the sine of x in radians
+# sqrt(x)       returns the square root of x
+# tan(x)        returns the tangent of x in radians
 

@@ -5,7 +5,9 @@
 #             if elif else
 # chapter 4 - repetition structures
 #             while, infinite loops, for, range
-# chapter 5 -
+# chapter 5 - functions
+#             functions, void functions, local variables, passing arguments to functions, global variables,
+#             global constants, value-returning functions, math module, storing functions in modules
 # chapter 6 -
 # chapter 7 -
 # chapter 8 -
