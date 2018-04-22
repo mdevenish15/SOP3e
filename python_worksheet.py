@@ -170,3 +170,27 @@ print('use the if-else statement, if for true, else for false - dual decision')
 print('use nested if-elif-else statement for more that one condition')
 
 print('\nlogic operators ~ and(&&) or(||) not(!=)')
+
+print('****************************************************')
+print('**Repetition Structures**')
+
+print('while loop - condition controlled loop')
+# the while loop is a pre-test loop - the condition is tested before each iteration
+
+print('for loop - count controlled loop')
+# the for loop while iterates through a sequence
+
+print('range function')
+# range([first item], [last item], [step value (can be negative)])
+
+print('**augmented assignment operators**')
+print('x = x + num \t\t x += num')
+print('x = x - num \t\t x -= num')
+print('x = x * num \t\t x *= num')
+print('x = x / num \t\t x /= num')
+print('x = x % num \t\t x %= num')
+
+print('\nSentinel is a special value that marks the end of a sequence of values')
+
+
+
