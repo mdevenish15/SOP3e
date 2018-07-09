@@ -145,9 +145,9 @@ print('\nto specify a minimum field width use "\'12,.2f\'" for a column width of
 print('the number is', format(12345.6789, '12,.2f'))
 print('\nto format in a percentage use "%" instead of f')
 print(format(0.5, '%'))
-print('for 0 precision, use "\'.0%\'"')
+print('\nfor 0 precision, use "\'.0%\'"')
 print(format(0.5, '.0%'))
-print('integer formatting - use d')
+print('\ninteger formatting - use d')
 print(format(123456, '10,d'))
 
 print('****************************************************')
@@ -183,7 +183,7 @@ print('for loop - count controlled loop')
 print('range function')
 # range([first item], [last item], [step value (can be negative)])
 
-print('**augmented assignment operators**')
+print('\n**augmented assignment operators**')
 print('x = x + num \t\t x += num')
 print('x = x - num \t\t x -= num')
 print('x = x * num \t\t x *= num')
@@ -233,4 +233,25 @@ print('** math Module**')
 # sin(x)        returns the sine of x in radians
 # sqrt(x)       returns the square root of x
 # tan(x)        returns the tangent of x in radians
+
+
+print('\n****************************************************')
+print('** Working with FILES**')
+
+# file_variable = open(filename, mode)
+
+# file_variable is the name of the variable that will reference the file object
+# filename is the string specifying the name if the file
+# mode is the string specifying the mode (read, write, append)
+#           'r'  -  open a file for reading only
+#           'w'  -  open a file for writing, if the file exists, erase its content
+#           'a'  -  open a file to be written to, all data written to the file will be appened to its end
+#                       (if the file does not exist, create it)
+# eg.       customer_file = open('customer.txt', 'r')
+
+# write data to a file
+# file_variable.write(string)
+
+# close file
+# customer_file.close()
 

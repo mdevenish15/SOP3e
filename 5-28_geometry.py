@@ -17,11 +17,12 @@ def main():
 
     while choice != QUIT_CHOICE:
         # display the menu
+        print()
         display_menu()
 
         # get the users choice
         choice = int(input('Enter your choice: '))
-
+        print()
         # perform the selected action
         if choice == AREA_CIRCLE_CHOICE:
             radius = float(input('Enter the circles radius: '))
@@ -49,7 +50,7 @@ def display_menu():
     print('2) Circumference of a circle')
     print('3) Area of a rectangle')
     print('4) Perimeter of a rectangle')
-    print('5_ Quit')
+    print('5) Quit')
 
 # call the main function
 main()
